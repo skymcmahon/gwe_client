@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css';
+import routes from './config/routes';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
+
+import './App.css';
 
 function App() {
 	return (
 		<div className='App'>
-			{/* <Nav /> */}
-			<h1>This is an app</h1>
+			<Nav />
+			{routes}
 			<Footer />
 		</div>
 	);
