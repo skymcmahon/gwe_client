@@ -3,7 +3,7 @@ import TripTypeModel from '../models/tripType';
 import TripTypeList from '../components/TripTypeList/TripTypeList'
 
 
-class TripTypeContainer extends React.Component {
+class TripTypeListContainer extends React.Component {
     state = {
         tripTypes: []
     }
@@ -24,4 +24,4 @@ class TripTypeContainer extends React.Component {
     }
 };
 
-export default TripTypeContainer
+export default TripTypeListContainer
