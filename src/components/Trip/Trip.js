@@ -7,6 +7,8 @@ function Trip(props) {
     const { trip } = props;
     console.log(trip.itinerary ? trip.itinerary.day1 : 'No informmation');
 
+    let prettyDate = new Date(trip.startDate).toDateString();
+
     const result = []
     for (let day in trip.itinerary) {
         result.push(<h4>{day}<br />{trip.itinerary ? trip.itinerary[day] : ''}</h4>)
@@ -15,7 +17,7 @@ function Trip(props) {
     return (
         <Link to={`/trips/${trip._id}`}>
             <div className="trip-card">
-                <h1>Start Date: {trip.startDate}</h1>
+                <h1>Start Date: {prettyDate}</h1>
                 <h1>Itinerary</h1>
                 {/* <h4>Day 1{trip.itinerary ? trip.itinerary.day1 : ''}</h4> */}
                 {result}
