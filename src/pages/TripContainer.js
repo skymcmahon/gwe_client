@@ -9,7 +9,7 @@ class TripContainer extends React.Component {
     }
 
     componentDidMount() {
-        // Get All TRIPS
+        // Get a TRIP
         TripModel.getTripById(this.props.match.params.id)
             .then((result) => {
                 console.log(result);

@@ -22,6 +22,11 @@ function Nav(props) {
 						</NavLink>
 					</li>
 					<li className='nav-item'>
+						<NavLink className='nav-link' to='/triptypes'>
+							Trips Types
+						</NavLink>
+					</li>
+					<li className='nav-item'>
 						<NavLink className='nav-link' to='/trips'>
 							Trips
 						</NavLink>
