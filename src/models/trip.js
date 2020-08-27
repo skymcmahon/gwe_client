@@ -1,4 +1,4 @@
-const url = `http://localhost:4000/api/trips`
+const url = `http://localhost:4000/api/tripstypes`
 
 export class Trip {
     static getAllTrips = () => {

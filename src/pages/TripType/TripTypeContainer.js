@@ -10,7 +10,7 @@ class TripTypeContainer extends React.Component {
 
     componentDidMount() {
         // Get Trip Type
-        TripTypeModel.getTripTypeById(this.props.match.params.id)
+        TripTypeModel.getTripTypeById(this.props.match.params.tt_id)
             .then((result) => {
                 console.log('Inside TT Details', result);
                 this.setState({ tripType: result });

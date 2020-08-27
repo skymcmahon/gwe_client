@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 // import './TripType.css';
 
@@ -14,19 +14,27 @@ function TripType(props) {
     // }
 
     return (
-        <Link to={`/triptypes/${tripType._id}`} title={tripType.title}>
-            <div className="tripType-card">
-                <h1>{tripType.title}</h1>
-                <h2>Parks</h2>
-                {/* {result} */}
-                <h1>{tripType.tripLength} Days - {tripType.tripLength - 1} Nights</h1>
-                <h1>{tripType.meals} meals</h1>
-                <h1>{tripType.imgUrl}</h1>
-                <h1>Itinerary</h1>
-                <h1>{tripType.description}</h1>
-                <h1>Participants: {tripType.participants}</h1>
-            </div>
-        </Link>
+        <>
+            <Link to={`/triptypes/${tripType._id}`} title={tripType.title}>
+                <div className="tripType-card">
+                    <h1>{tripType.title}</h1>
+                    <h2>Parks</h2>
+                    {/* {result} */}
+                    <h1>{tripType.tripLength} Days - {tripType.tripLength - 1} Nights</h1>
+                    <h1>{tripType.meals} meals</h1>
+                    <h1>{tripType.imgUrl}</h1>
+                    <h1>Itinerary</h1>
+                    <h1>{tripType.description}</h1>
+                    <h1>Participants: {tripType.participants}</h1>
+
+                </div>
+            </Link>
+            <button className='edit-button'>
+                <Link className='edit-link' exact to={`/triptypes/${tripType._id}/edit`}>
+                    Edit
+                </Link>
+            </button>
+        </>
     );
 }
 
