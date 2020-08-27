@@ -1,6 +1,6 @@
 import React from 'react';
-import TripModel from '../models/trip';
-import TripList from '../components/TripList/TripList'
+import TripModel from '../../models/trip';
+import TripList from '../../components/TripList/TripList'
 
 
 class TripListContainer extends React.Component {

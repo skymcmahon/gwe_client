@@ -1,6 +1,6 @@
 import React from 'react';
-import TripTypeModel from '../models/tripType';
-import TripTypeList from '../components/TripTypeList/TripTypeList'
+import TripTypeModel from '../../models/tripType';
+import TripTypeList from '../../components/TripTypeList/TripTypeList'
 
 
 class TripTypeListContainer extends React.Component {
