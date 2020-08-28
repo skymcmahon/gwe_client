@@ -10,7 +10,7 @@ import TripTypeListContainer from '../pages/TripType/TripTypeListContainer'
 import TripTypeContainer from '../pages/TripType/TripTypeContainer'
 import NewTripTypeContainer from '../pages/TripType/NewTripTypeContainer'
 import EditTripTypeContainer from '../pages/TripType/EditTripTypeContainer'
-
+import DeleteTripType from '../pages/TripType/DeleteTripTypeContainer'
 
 export default (
 	<Switch>
@@ -20,9 +20,9 @@ export default (
 		<Route exact path='/triptypes/new' component={NewTripTypeContainer} />
 		<Route exact path='/triptypes/:tt_id' component={TripTypeContainer} />
 		<Route exact path='/triptypes' component={TripTypeListContainer} />
+		<Route exact path='/triptypes/:tt_id/delete' component={DeleteTripType} />
 		<Route exact path='/triptypes/:tt_id/edit' render={() => <EditTripTypeContainer />} />
 
-		{/* <Route exact path='/triptypes/:tt_id/delete' component={DeleteTripType} /> */}
 
 
 		{/* //--------------------------/TRIP/--------------------------// */}

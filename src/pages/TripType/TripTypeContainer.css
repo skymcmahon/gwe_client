@@ -1,0 +1,71 @@
+.ttc-container{
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.ttc-container h1{
+    color: rgb(231, 233, 229);
+}
+
+.ttc-bottom-container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; ####THIS IS Verticle  */
+    justify-content: space-evenly;
+    background-color: rgb(231, 233, 229);
+    width: 100%;
+    color: #002d59 ;
+}
+
+.ttc-left-container{
+    width: 39%;
+}
+
+.ttc-right-container{
+    width: 55%;
+}
+
+.trip-type-show-img{
+    width: 100%;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 11px;
+}
+
+.ttc-dates{
+    color: #004789;
+}
+
+.ttc-dates p{
+    border-bottom: #002d59 solid 3px;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.ttc-dates ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.itinerary{
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 216);
+    height: 100%;
+    overflow: hidden;
+}
+
+.itinerary-title{
+    font-weight: 900;
+}
+
+.detail-title{
+    color: #002d59 ;
+    padding-top: 15px;
+    font-weight: 900;
+}

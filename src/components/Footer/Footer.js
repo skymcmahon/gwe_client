@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './Footer.css'
+
 function Footer() {
 	return (
 		<>
-			<div className='container'>
-				<h1>This is the footer</h1>
+			<div className='footer'>
+				<p className='footer-text'>Go-West-Expeditions &copy; 2020 </p>
 			</div>
 		</>
 	);

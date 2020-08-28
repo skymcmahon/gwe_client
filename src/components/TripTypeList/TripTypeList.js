@@ -1,7 +1,8 @@
 import React from 'react';
 import TripType from '../TripType/TripType';
+// import HeaderCarousel from '../../components/HeaderCarousel/HeaderCarousel'
 
-// import './TripTypeList.css';
+import './TripTypeList.css';
 
 function TripTypeList(props) {
     console.log("Inside TTL", props);
@@ -11,6 +12,7 @@ function TripTypeList(props) {
 
     return (
         <div className="TripType-container">
+            {/* <HeaderCarousel /> */}
             {tripTypeList}
         </div>
     );

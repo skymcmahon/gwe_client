@@ -1,0 +1,50 @@
+.trip-types-container{
+    background-color: rgb(231, 233, 229);
+    scroll-margin-top: 0;
+    display: flex;
+    align-content: center;
+
+}
+
+.trip-type-index-img-container{
+    width: 50vw;
+    height: 380px;
+    background-size: cover;
+    /* display: flex; */
+    /* align-content: center; */
+}
+
+.trip-type-index-img{
+    margin: 20px 25px;
+    min-width: 40vw;
+    min-height: 340px;
+    height: 30vh;
+    background-size: cover;
+    border-radius: 5px;
+
+    /* align-self: flex-end; */
+    /* object-fit: contain; */
+    /* background-size:contain; */
+    /* background-repeat:no-repeat; */
+    /* background-size: cover; */
+
+}
+
+
+.trip-type-details-container{
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.tt-info{
+    text-decoration: none;
+}
+
+.tt-title{
+    border-bottom: #002d59 solid 10px;
+}
+

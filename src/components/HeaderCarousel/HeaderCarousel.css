@@ -1,0 +1,19 @@
+.carousel{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://adamschallau.com/images/xl/Bryce-Canyon-Panoramic-7880-90.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.carousel-text{
+    color: rgb(231, 233, 229);
+    font-size:  1.75em;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, .5);
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+
+/* https://adamschallau.com/images/xl/Bryce-Canyon-Panoramic-7880-90.jpg */

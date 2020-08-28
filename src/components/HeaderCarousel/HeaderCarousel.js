@@ -1,9 +1,13 @@
 import React from 'react'
 
+import './HeaderCarousel.css'
+
 function HeaderCarousel() {
     return (
-        <div>
-            <h6>This will be a carousel</h6>
+        <div className="carousel">
+            <div className="carousel-text-container">
+                <div className="carousel-text">Bryce Canyon <br /> National Park</div>
+            </div>
         </div>
     )
 }

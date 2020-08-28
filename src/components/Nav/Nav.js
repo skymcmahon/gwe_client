@@ -26,16 +26,16 @@ function Nav(props) {
 							Trips Types
 						</NavLink>
 					</li>
-					<li className='nav-item'>
+					{/* <li className='nav-item'>
 						<NavLink className='nav-link' to='/trips'>
 							Trips
 						</NavLink>
-					</li>
-					<li className='nav-item'>
+					</li> */}
+					{/* <li className='nav-item'>
 						<NavLink className='nav-link' to='/'>
 							Parks
 						</NavLink>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>

@@ -7,7 +7,10 @@ body {
 	font-family: sans-serif;
 	line-height: 1.6;
 	padding: 0;
-	margin: 0;
+  margin: 0;
+  background-color: #004789;
+  /* display: flex;
+  align-items: center; */
 }
 
 /* @keyframes App-logo-spin {
@@ -18,3 +21,55 @@ body {
     transform: rotate(360deg);
   }
 } */
+
+label {
+  margin-top: 26px;
+}
+input {
+  color: rgb(83, 82, 82);
+  width: 100%;
+  font-size: 1.2em;
+  border: 0;
+  border-bottom: 2px solid rebeccapurple;
+  outline: 0;
+  margin-bottom: 7px;
+  margin-bottom: 0;
+  /* background: transparent; */
+  /* transition: border-color 0.2s; */
+}
+
+a{
+  text-decoration: none !important;
+  color: #004789;
+}
+
+.home-CTA{
+  text-align: center;
+  color: rgb(216, 216, 216);
+  letter-spacing: 2px;
+}
+
+.boxes{
+  widows: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box{
+  margin: 40px 0;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  color: #004789;
+}
+
+.trips-description{
+  text-align: center;
+  padding: 10px;
+  margin-top: 35px; 
+  width: 100vw;
+  background-color: rgb(216, 216, 216);
+  color: #004789;
+}
