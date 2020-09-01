@@ -8,10 +8,12 @@ function TripType(props) {
     // console.log(props);
     console.log("Inside TT", tripType);
 
-    // const result = []
-    // for (let park in tripType.parks) {
-    //     result.push(<h4>{park}<br />{tripType.parks ? tripType.parks : ''}</h4>)
-    // }
+    console.log(tripType.parks.length);
+    const result = []
+    for (let park of tripType.parks) {
+        // if (park < tripType.parks.length)
+        result.push(<h3 className="tt-info">{park}, </h3>)
+    }
 
     return (
         <>
@@ -24,8 +26,8 @@ function TripType(props) {
                         <div className="trip-type-details-container">
                             <h1 className="tt-info tt-title">- {tripType.title} -</h1>
                             <h3 className="tt-info">{tripType.tripLength} Days - {tripType.tripLength - 1} Nights</h3>
-                            {/* {result} */}
-                            <h3 className="tt-info">{tripType.parks[0]}, {tripType.parks[1]}, {tripType.parks[2]}, {tripType.parks[3]}, {tripType.parks[4]}, {tripType.parks[5]}</h3>
+                            {result}
+                            {/* <h3 className="tt-info">{tripType.parks[0]}, {tripType.parks[1]}, {tripType.parks[2]}, {tripType.parks[3]}, {tripType.parks[4]}, {tripType.parks[5]}</h3> */}
 
                         </div>
                         {/* <h1>{tripType.meals} meals</h1> */}

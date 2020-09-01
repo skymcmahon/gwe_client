@@ -11,6 +11,7 @@ body {
   background-color: #004789;
   /* display: flex;
   align-items: center; */
+  font-family: 'Rubik', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 /* @keyframes App-logo-spin {
